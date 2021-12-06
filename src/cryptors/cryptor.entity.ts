@@ -1,10 +1,9 @@
-import {BaseEntity, Entity, Unique, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn} from 'typeorm'
+import {BaseEntity, Entity, PrimaryGeneratedColumn, Column } from 'typeorm'
 
 @Entity()
-@Unique(['name'])
 export class Cryptor extends BaseEntity {
   @PrimaryGeneratedColumn('uuid')
-  id: string;
+  id: number;
 
   @Column({ nullable: false, type: 'varchar', length: 200 })
   name: string;
