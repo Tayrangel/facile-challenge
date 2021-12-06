@@ -1,7 +1,7 @@
 ## Facile-Challenge
-. NodeJs
-. NestJS
-. PostgreSQL
+- NodeJs
+- NestJS
+- PostgreSQL
 
 ## Running the app
 
